@@ -6,10 +6,9 @@ The Login Page
 
 The Sign Up Page
 <img width="958" height="915" alt="Image" src="https://github.com/user-attachments/assets/dc58fd03-e265-460f-93da-537ee15f52d4" />
-
-├── main.dart           # The entry point of the app and route definitions
-├── login.dart          # The login screen UI
-└── sign up.dart        # The sign-up (account creation) screen UI
+ main.dart           # The entry point of the app and route definitions
+ login.dart          # The login screen UI
+ sign up.dart        # The sign-up (account creation) screen UI
 
 Navigation between screens using Named Routes.
 
