@@ -31,7 +31,7 @@ routes: {
   '/sign Up': (context) => const MyHomePage(title: 'sign Up'),
   '/Login': (context) => const LoginPage(),
 }
-From the Login Page ➜ Sign Up Page:
+From the Login Page ➜ Sign Up Page:                                                                                                                                                                                  
 Navigator.pushReplacementNamed(context, '/sign Up');
 From the Sign Up Page ➜ Login Page:
 Navigator.pushNamed(context, '/Login');
