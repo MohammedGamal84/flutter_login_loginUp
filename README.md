@@ -26,18 +26,12 @@ Elegant user interface design using widgets like Column, Row, Padding, SizedBox,
 
  Navigation Between Screens
 The initialRoute and routes were defined in the main.dart file to control navigation between the screens:
-نسخ
-تحري
 initialRoute: '/Login',
 routes: {
   '/sign Up': (context) => const MyHomePage(title: 'sign Up'),
   '/Login': (context) => const LoginPage(),
 }
 From the Login Page ➜ Sign Up Page:
-نسخ
-تحرير
 Navigator.pushReplacementNamed(context, '/sign Up');
 From the Sign Up Page ➜ Login Page:
-نسخ
-تحرير
 Navigator.pushNamed(context, '/Login');
